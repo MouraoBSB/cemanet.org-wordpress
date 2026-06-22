@@ -1,0 +1,13 @@
+{
+  "name": "cemanet-org-wordpress-snapshot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Espelho do front-end público do cemanet.org.br como ponto de partida para uma futura reconstrução sem WordPress.",
+  "scripts": {
+    "espelhar": "node tools/espelhar.mjs"
+  },
+  "dependencies": {
+    "node-html-parser": "^8.0.2"
+  }
+}
